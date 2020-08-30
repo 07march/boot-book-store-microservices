@@ -1,0 +1,42 @@
+### user 8094
+### store 8093
+### order 8092
+### book 8091
+### auth 8090
+### router 8080
+
+POST localhost:8080/api/v1/book/save
+Content-Type: application/json
+
+{
+  "price": 22,
+  "name": "Bulg",
+  "title": "Test",
+  "description": "Testdes"
+}
+
+###
+
+GET localhost:8080/api/v1/find/all/books
+
+###
+
+POST localhost:8080/api/v1/user
+Content-Type: application/json
+
+{
+  "login": "test2",
+  "name": "Test",
+  "password": "test",
+  "role": "USER"
+}
+
+###
+
+GET localhost:8090/auth?login=test2&password=test
+
+###
+
+GET localhost:8090/auth/check?token=41d1f4ff-9371-4946-9470-ab133056640b
+
+###
