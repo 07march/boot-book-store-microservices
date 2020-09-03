@@ -1,6 +1,6 @@
 # spring-boot-microservices
 
-Java stack: Spring Boot, Lombok, Maven.
+Java stack: Spring Boot, REST, Lombok, Postgres, Maven.
 
 Run: clone this repository --> open project in IDEA IDE.
 
